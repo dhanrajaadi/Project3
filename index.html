@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+ </head>
+ <style>
+    body{
+      background-color:#cddfa0;
+    }
+</style>
+ <body>
+    <form name="form" id="form" action="form.html",method="Post">
+
+<table border="1" align="center" cellpadding="5" cellspacing="0" width="500" height="800">
+    <tr>
+        <td><label for ="txname">Name</label></td>
+        <td><input type="text" id="txname"/> </td>
+    </tr>
+    <tr>
+        <td><label for ="txname">Father's Name</label></td>
+        <td><input type="text" id="txname"/> </td>
+    </tr>
+    <tr>
+        <td><label for ="txname">Mother's Name</label></td>
+        <td><input type="text" id="txname"/> </td>
+    </tr>
+    <tr>
+        <td><label for ="number" id="age">Age </label></td>
+        <td><input type="number" id="age"
+        min="18" max="26"/> </td>
+    </tr>
+
+    <tr>
+        <td><label for ="Gender">Gender</label></td>
+        <td><input type="radio" name="mal"id="gen" value="Male"/>
+        <label for ="Male">Male</label>
+        <input type="radio" name="mal"id="gen" value="Female"/>
+        <label for ="Female">Female</label>
+        <input type="radio" name="mal" id="gen" value="Other"/>
+        <label for ="Other">Other</label> 
+        </td>
+     </tr>
+
+     <tr>
+        <td><label for="DoB" id="dob">D.O.B</label></td>
+        <td><input type="date" id="dob" name="dob" required </td>
+     </tr>
+
+     <tr>
+        <td>Contact Number</td>
+         <td><input type="text" name="country code" value="+91" size="2" />
+             <input type="number" name="phone" size="10" required/> </td>
+     </tr>
+
+     <tr>
+        <td>Email</td>
+        <td><input type="text" name="email" placeholder="Email Id"</td>
+     </tr>
+
+     <tr>
+        <td>Aadhar Number</td>
+        <td><input type=""  size="12" required</td>
+     </tr>
+
+     <tr>
+        <td>Password</td>
+        <td><input type="password" value="" required</td>
+     </tr>
+
+     <tr>
+        <td>Address</td>
+        <td><textarea id="address" rows="3" cols="50"/></textarea></td>
+     </tr>
+
+     <tr>
+        <td >State</td>
+        <td><select name="" id="" required>
+            <option value="1">Select State</option>
+            <option value="2">Madhya Pradesh</option>
+            <option value="3">Jharkhand</option>
+            <option value="4">Punjab</option>
+            <option value="5">Bihar</option>
+      </td>
+     
+      <tr>
+        <td>Upload Document</td>
+        <td><input type="file" name="file" id="aa"/> </td>
+      </tr>
+       
+      <tr>
+        <td>
+      <button><input type="Submit" Value="Submit" width="1000px"/></button>
+        </td>
+        <td>
+      <button align="center" width="300px"><input type="Submit" Value="Clear"/></button>
+        </td>
+      </tr>
+    </form>
+</table>
+</body>
+</html>
+
